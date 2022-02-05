@@ -2,3 +2,17 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 Theme = 'tale'
+
+[menu]
+  [[menu.main]]
+    identifier = "contacto"
+    name = "Contacto"
+    title = "Contacto"
+    url = "/contacto/"
+    weight = 0
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Post"
+    url = "/posts/"
+    weight = 0
