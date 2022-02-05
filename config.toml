@@ -1,7 +1,10 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://byron2016.github.io/byron.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 Theme = 'tale'
+
+relativeURLs = true
+canonifyURLs = true
 
 [menu]
   [[menu.main]]
